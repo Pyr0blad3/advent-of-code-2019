@@ -20,7 +20,7 @@ def run_program(noun, verb, prog):
 
 if __name__ == '__main__':
 
-    with open('day02.txt') as f:
+    with open('day2.txt') as f:
         prog_input = [int(x) for x in f.read().split(',')]
 
     for noun, verb in permutations(range(100), 2):
